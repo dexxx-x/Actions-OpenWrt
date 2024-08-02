@@ -1,4 +1,4 @@
-**English** (https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+**[English]** (https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
 
