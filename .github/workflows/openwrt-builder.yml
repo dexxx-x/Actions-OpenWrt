@@ -75,7 +75,7 @@ jobs:
       run: |
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-        [ -e $PATCHES ] && cp -rf $PATCHES openwrt/feeds/packages/net/openvpn/
+        [ -e $PATCHES ] && mv -rf $PATCHES openwrt/feeds/packages/net/openvpn/
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
